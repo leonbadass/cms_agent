@@ -19,5 +19,13 @@
     "@types/node": "^25.8.0",
     "tsx": "^4.22.0",
     "typescript": "^6.0.3"
+  },
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }
